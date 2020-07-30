@@ -1,0 +1,18 @@
+.page-login {
+  position: relative;
+  height: 100%;
+  background-color: #f9f9f9;
+
+  .login-wrapper {
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 5px 10px 0px #eaeaea;
+  }
+
+  :global(.ant-input-group-addon) {
+    padding: 0;
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../style//variables';
+
+.page-home {
+
+
+  :global {
+
+    .ant-card-head {
+      padding: 0 15px;
+      min-height: 42px;
+      font-size: map-get($fontSizes, '14');
+    }
+    .ant-card-head-title {
+      padding: 10px 0;
+    }
+    .ant-card-extra {
+      padding: 10px 0;
+      font-size: map-get($fontSizes, '12');
+    }
+    .ant-tag {
+      margin-right: 0;
+      transform: scale(0.9);
+    }
+    .ant-card-body {
+      padding: 15px;
+    }
+  }
+
+  .count {
+    font-size: map-get($fontSizes, '36');
+    color: #666;
+    line-height: 36px;
+    padding: 5px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    white-space: nowrap;
+  }
+
+  .chart-title {
+    line-height: map-get($spaces, '20');
+  }
+  .table-border {
+    border: 1px solid map-get($colors, 'light-grey-1');;
+  }
+}
