@@ -8,7 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.2.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "craco-less": "^1.16.0",
     "echarts": "^4.8.0",
     "prop-types": "^15.7.2",
